@@ -13,6 +13,9 @@
 		7B6749251EA88B9100E641C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B6749231EA88B9100E641C2 /* Main.storyboard */; };
 		7B6749271EA88B9100E641C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B6749261EA88B9100E641C2 /* Assets.xcassets */; };
 		7B67492A1EA88B9100E641C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B6749281EA88B9100E641C2 /* LaunchScreen.storyboard */; };
+		7BA28A591EA9BA680076E3F1 /* 鸣人.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA28A581EA9BA680076E3F1 /* 鸣人.jpg */; };
+		7BA28A601EA9F18E0076E3F1 /* UIView+CGRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA28A5D1EA9F18E0076E3F1 /* UIView+CGRect.m */; };
+		7BA28A611EA9F18E0076E3F1 /* JqyDanMuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA28A5F1EA9F18E0076E3F1 /* JqyDanMuView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		7B6749261EA88B9100E641C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B6749291EA88B9100E641C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B67492B1EA88B9100E641C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BA28A581EA9BA680076E3F1 /* 鸣人.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "鸣人.jpg"; sourceTree = "<group>"; };
+		7BA28A5C1EA9F18E0076E3F1 /* UIView+CGRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CGRect.h"; sourceTree = "<group>"; };
+		7BA28A5D1EA9F18E0076E3F1 /* UIView+CGRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CGRect.m"; sourceTree = "<group>"; };
+		7BA28A5E1EA9F18E0076E3F1 /* JqyDanMuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JqyDanMuView.h; sourceTree = "<group>"; };
+		7BA28A5F1EA9F18E0076E3F1 /* JqyDanMuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JqyDanMuView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +66,12 @@
 		7B6749191EA88B9100E641C2 /* DanMu_MySelf */ = {
 			isa = PBXGroup;
 			children = (
+				7BA28A5A1EA9F18E0076E3F1 /* JqyDanMuView */,
 				7B67491D1EA88B9100E641C2 /* AppDelegate.h */,
 				7B67491E1EA88B9100E641C2 /* AppDelegate.m */,
 				7B6749201EA88B9100E641C2 /* ViewController.h */,
 				7B6749211EA88B9100E641C2 /* ViewController.m */,
+				7BA28A581EA9BA680076E3F1 /* 鸣人.jpg */,
 				7B6749231EA88B9100E641C2 /* Main.storyboard */,
 				7B6749261EA88B9100E641C2 /* Assets.xcassets */,
 				7B6749281EA88B9100E641C2 /* LaunchScreen.storyboard */,
@@ -77,6 +87,25 @@
 				7B67491B1EA88B9100E641C2 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7BA28A5A1EA9F18E0076E3F1 /* JqyDanMuView */ = {
+			isa = PBXGroup;
+			children = (
+				7BA28A5E1EA9F18E0076E3F1 /* JqyDanMuView.h */,
+				7BA28A5F1EA9F18E0076E3F1 /* JqyDanMuView.m */,
+				7BA28A5B1EA9F18E0076E3F1 /* JqyCGRect */,
+			);
+			path = JqyDanMuView;
+			sourceTree = "<group>";
+		};
+		7BA28A5B1EA9F18E0076E3F1 /* JqyCGRect */ = {
+			isa = PBXGroup;
+			children = (
+				7BA28A5C1EA9F18E0076E3F1 /* UIView+CGRect.h */,
+				7BA28A5D1EA9F18E0076E3F1 /* UIView+CGRect.m */,
+			);
+			path = JqyCGRect;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +139,7 @@
 				TargetAttributes = {
 					7B6749161EA88B9100E641C2 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SCAXLP3LHY;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,6 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BA28A591EA9BA680076E3F1 /* 鸣人.jpg in Resources */,
 				7B67492A1EA88B9100E641C2 /* LaunchScreen.storyboard in Resources */,
 				7B6749271EA88B9100E641C2 /* Assets.xcassets in Resources */,
 				7B6749251EA88B9100E641C2 /* Main.storyboard in Resources */,
@@ -152,7 +183,9 @@
 			files = (
 				7B6749221EA88B9100E641C2 /* ViewController.m in Sources */,
 				7B67491F1EA88B9100E641C2 /* AppDelegate.m in Sources */,
+				7BA28A601EA9F18E0076E3F1 /* UIView+CGRect.m in Sources */,
 				7B67491C1EA88B9100E641C2 /* main.m in Sources */,
+				7BA28A611EA9F18E0076E3F1 /* JqyDanMuView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +305,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SCAXLP3LHY;
 				INFOPLIST_FILE = DanMu_MySelf/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Zhensoft.DanMu-MySelf";
@@ -283,6 +317,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SCAXLP3LHY;
 				INFOPLIST_FILE = DanMu_MySelf/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Zhensoft.DanMu-MySelf";
@@ -309,6 +344,7 @@
 				7B6749301EA88B9100E641C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
